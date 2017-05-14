@@ -24,7 +24,8 @@ export default {
     return {
       menuList: [
         {name: '首页', path: '/', icon: ''},
-        {name: '客户', path: '/customer', icon: ''}
+        {name: '添加客户', path: '/customerForm', icon: ''},
+        {name: '客户列表', path: '/customerList', icon: ''}
       ]
     };
   }
